@@ -1,7 +1,10 @@
-/storage/local.env
-/storage/user.db
-/storage/yandex_auth/authorized_key_local.json
 /storage/yandex_auth/iam_token_cache.json
+/storage/yandex_auth/authorized_key_local.json
+/storage/database/users.csv
+/storage/database/users.db
+/storage/local.env
+
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -133,7 +136,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -177,6 +179,3 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-/storage/yandex_auth/authorized_key.json
-/storage/database/users.csv
-/storage/database/users.db
